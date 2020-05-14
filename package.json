@@ -1,0 +1,17 @@
+{
+  "name": "logbook",
+  "version": "0.0.1",
+  "description": "Otomatisasi pengisian SAK dan Presensi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "@cahyoads",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  }
+}

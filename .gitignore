@@ -1,0 +1,6 @@
+# Directory
+/node_modules
+
+# File
+.env
+config.json

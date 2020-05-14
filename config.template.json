@@ -1,0 +1,343 @@
+{
+  "alamat": {
+    "label": "Alamat Saat ini",
+    "type": "text",
+    "required": true,
+    "value": ""
+  },
+  "kd_kota": {
+    "label": "Kota/Kabupaten Domisili",
+    "type": "text",
+    "required": true,
+    "options": "kota.json",
+    "value": ""
+  },
+  "latitude": {
+    "label": "Latitude Device",
+    "type": "text",
+    "required": true,
+    "value": ""
+  },
+  "longitude": {
+    "label": "Longitude Device",
+    "type": "text",
+    "required": true,
+    "value": ""
+  },
+  "jenis_alamat": {
+    "label": "Jenis Tempat Tinggal Saat ini",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Rumah Pribadi", "value": 1 },
+      { "label": "Rumah Dinas", "value": 2 },
+      { "label": "Indekos", "value": 3 }
+    ],
+    "value": ""
+  },
+  "kel_tinggal": {
+    "label": "Tinggal Sendiri atau Bersama-sama",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Sendiri", "value": 1 },
+      { "label": "Bersama-sama", "value": 2 }
+    ],
+    "value": ""
+  },
+  "kontak": {
+    "label": "Nomor Kontak / HP pribadi yang dapat dihubungi",
+    "type": "text",
+    "required": true,
+    "value": ""
+  },
+  "sub_kontak_nm": {
+    "label": "Nama Kontak lain yang dapat dihubungi (suami/istri, saudara, dll)",
+    "type": "text",
+    "required": true,
+    "value": ""
+  },
+  "sub_kontak": {
+    "label": "Nomor Kontak lain yang dapat dihubungi (suami/istri, saudara, dll)",
+    "type": "text",
+    "required": true,
+    "value": ""
+  },
+  "alat_wfh": {
+    "label": "Apakah Anda memiliki PC/Notebook yg dapat digunakan utk WFH?",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "riwayat_jantung": {
+    "label": "Riwayat Penyakit Jantung",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "riwayat_diabet": {
+    "label": "Riwayat Penyakit Diabetes",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "riwayat_darahtinggi": {
+    "label": "Riwayat Penyakit Darah Tinggi",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "riwayat_asma": {
+    "label": "Riwayat Penyakit Asma",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "riwayat_tbparu": {
+    "label": "Riwayat Penyakit TB Paru",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "riwayat_ginjal": {
+    "label": "Riwayat Penyakit Ginjal",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "riwayat_lainnya": {
+    "label": "Riwayat Penyakit Lainnya",
+    "type": "text",
+    "required": false,
+    "value": ""
+  },
+  "pertanyaan_1": {
+    "label": "Apakah Anda sehat hari ini?",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_1_sub_suhu": {
+    "label": "Berapakah suhu tubuh Anda? ",
+    "type": "text",
+    "required": false,
+    "value": ""
+  },
+  "jawaban_2_sub_demam": {
+    "label": "Apakah Anda sedang mengalami gejala Demam?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_2_sub_batuk": {
+    "label": "Apakah Anda sedang mengalami gejala Batuk?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_2_sub_sktkepala": {
+    "label": "Apakah Anda sedang mengalami gejala Sakit Kepala?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_2_sub_skttenggorokan": {
+    "label": "Apakah Anda sedang mengalami gejala Sakit Tenggorokan?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_2_sub_hidungberair": {
+    "label": "Apakah Anda sedang mengalami gejala Hidung Berair?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_2_sub_false": {
+    "label": "Tidak Mengalami Gejala?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "pertanyaan_3": {
+    "label": "Apakah Anda memiliki riwayat perjalanan ke kota terjangkit di wilayah Indonesia dalam waktu 14 hari sebelum timbul gejala?",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "pertanyaan_4": {
+    "label": "Apakah Anda memiliki riwayat perjalanan ke wilayah negara terjangkit dalam waktu 14 hari sebelum timbul gejala?",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "pertanyaan_5": {
+    "label": "Apakah Anda pernah memberikan perawatan atau melakukan kontak dekat dengan seseorang dengan COVID-19 (Kemungkinan atau Sudah terkonfirmasi) saat mereka sakit (gejala antara lain sesak nafas, batuk, demam, bersin, atau sakit tenggorokan)?",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "pertanyaan_6": {
+    "label": "Apakah Anda pernah kontak dekat dengan seseorang yang bepergian ke luar Negeri dalam 14 hari terakhir yang menjadi sakit (sesak nafas, batuk, demam, bersin, atau sakit tenggorokan)?",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "pertanyaan_7": {
+    "label": [
+      "Apakah Anda sedang mengalami gejala sebagai berikut (atau kombinasi dari gejala tersebut)?",
+      "- Nafas yang pendek (walaupun sedang tidak beraktivitas)",
+      "- Ketidakmampuan untuk berbaring karena kesulitan bernafas",
+      "- Kondisi penyakit kronis (misal diabetes atau jantung) yang anda alami dirasakan lebih berat karena kesulitan bernapas"
+    ],
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_8_sub_pneumo": {
+    "label": "Apakah Anda sedang mengalami gejala Kesulitan bernafas yang parah (Bernafas dengan sangat cepat atau berbicara dalam satu kata)",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_8_sub_nyeridada": {
+    "label": "Apakah Anda sedang mengalami gejala Nyeri dada yang parah?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_8_sub_bingung": {
+    "label": "Apakah Anda sedang mengalami gejala Merasa kebingungan?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_8_sub_sadar": {
+    "label": "Apakah Anda sedang mengalami gejala Penurunan kesadaran?",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "jawaban_8_sub_false": {
+    "label": "Tidak Mengalami Gejala",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "pertanyaan_9": {
+    "label": "Apabila Anda sudah melakukan pemeriksaan ke dokter, apakah saudara ditetapkan sebagai PDP?",
+    "type": "radio",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": ""
+  },
+  "pernyataan": {
+    "label": "Saya menyatakan bahwa data yang diisi adalah benar dan sesuai dengan keadaan yang sebenarnya",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      { "label": "Ya", "value": 1 },
+      { "label": "Tidak", "value": 2 }
+    ],
+    "value": 1
+  }
+}
