@@ -4,3 +4,4 @@
 # File
 .env
 config.json
+package-lock.json
